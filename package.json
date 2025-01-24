@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "delete:docs": "del-cli docs",
-    "copy:dist": "copyfiles dist/bases/browser/* ./docs -f"
+    "copy:dist": "copyfiles dist/03-gift-app/browser/* ./docs -f"
   },
   "private": true,
   "dependencies": {
@@ -31,6 +31,8 @@
     "@angular/cli": "^19.1.4",
     "@angular/compiler-cli": "^19.1.0",
     "@types/jasmine": "~5.1.0",
+    "copyfiles": "^2.4.1",
+    "del-cli": "^6.0.0",
     "jasmine-core": "~5.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
